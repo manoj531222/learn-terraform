@@ -1,5 +1,5 @@
 variable "sample_string" {
-  default = "hell world"
+  default = "hello world"
 }
 
 output "sample_string" {
