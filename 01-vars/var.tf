@@ -16,3 +16,13 @@ variable "sample_list" {
     123
   ]
 }
+
+
+variable "sample_dict" {
+  default = {
+    number = 100
+    string = "hello"
+    boolen = ture
+    number=123
+  }
+}
