@@ -17,12 +17,11 @@ variable "sample_list" {
   ]
 }
 
-
 variable "sample_dict" {
   default = {
-    number = 100
-    string = "hello"
-    boolen = ture
-    number=123
+    number1 = 100
+    string1 = "hello"
+    number2 = 123
+    boolean = true
   }
 }
