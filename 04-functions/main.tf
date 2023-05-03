@@ -6,3 +6,7 @@ variable "sample" {
 output "sample" {
   value = lower(var.sample)
 }
+
+variable "sample1" {
+  default = ["abc", "xyz"]
+}
