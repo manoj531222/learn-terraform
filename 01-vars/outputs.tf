@@ -23,4 +23,6 @@ output "multiple_values" {
 output "city1" {
   value = var.city1[1]
 }
-
+output "colours" {
+  value = var.colours[2]
+}
