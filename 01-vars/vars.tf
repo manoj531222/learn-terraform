@@ -9,3 +9,6 @@ variable "fruit" {
 variable "city" {
   default = "hyderabad"
 }
+variable "sample_number" {
+  default = 2000
+}
