@@ -40,3 +40,9 @@ variable "capital_citys" {
    "goa = panjali"
    ]
 }
+variable "animals" {
+  default = [
+  "animal1 = lion", "animal2 = cheetha", "animal3 = deer"
+
+  ]
+}
