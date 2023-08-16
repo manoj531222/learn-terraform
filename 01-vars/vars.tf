@@ -19,3 +19,7 @@ variable "sample_boolean" {
 output "sample_boolean" {
 value = var.sample_boolean
 }
+
+output "sample_number" {
+  value = var.sample_number
+}

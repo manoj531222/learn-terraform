@@ -7,6 +7,3 @@ output "fruit" {
 output "city" {
   value = var.city
 }
-output "sample_number" {
-  value = var.sample_number
-}
