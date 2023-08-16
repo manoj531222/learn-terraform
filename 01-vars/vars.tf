@@ -22,7 +22,7 @@ variable "multiple_values" {
   default =[
   "hello",
     123,
-    ture
+    true
 
   ]
 }
