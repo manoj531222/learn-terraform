@@ -15,6 +15,14 @@ variable "sample_number" {
 variable "sample_boolean" {
   default = true
 }
-variable "roolno" {
+variable "rool_no" {
   default = 220
+}
+variable "multiple_values" {
+  default =[
+  hello,
+    123,
+    ture
+
+  ]
 }
