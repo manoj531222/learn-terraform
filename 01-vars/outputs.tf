@@ -7,3 +7,10 @@ output "fruit" {
 output "city" {
   value = var.city
 }
+output "sample_boolean" {
+  value = var.sample_boolean
+}
+
+output "sample_number" {
+  value = var.sample_number
+}
