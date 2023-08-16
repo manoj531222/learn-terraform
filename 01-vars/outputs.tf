@@ -21,5 +21,5 @@ output "multiple_values" {
   value = var.multiple_values[1]
 }
 output "city1" {
-  value = var.city[0]
+  value = var.city1[0]
 }
