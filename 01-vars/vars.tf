@@ -34,8 +34,7 @@ variable "colours" {
   default = ["black","white","yello"]
 }
 variable "capital_citys" {
-  default =
-  [
+  default = [
    "hyd = dhelhi",
    "Bihar = patna",
    "goa = panjali"
