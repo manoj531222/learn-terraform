@@ -4,3 +4,6 @@ output "name" {
 output "fruit" {
   value = var.fruit
 }
+output "city" {
+  value = var.city
+}

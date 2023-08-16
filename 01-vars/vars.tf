@@ -5,3 +5,7 @@ variable "name" {
 variable "fruit" {
   default = "mango"
 }
+
+variable "city" {
+  default = hyderabad
+}
