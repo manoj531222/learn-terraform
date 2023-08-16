@@ -29,6 +29,4 @@ output "colours" {
 output "capital_citys" {
   value = var.capital_citys[0]
 }
-output "animals" {
-  value = var.animals[1]
-}
+

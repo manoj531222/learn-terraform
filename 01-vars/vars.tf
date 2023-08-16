@@ -39,11 +39,5 @@ variable "capital_citys" {
    "Bihar = patna",
    "goa = panjali"
    ]
-}
-variable "animals" {
-  default = [
-  "animal1 = lion", "animal2 = cheetha", "animal3 = deer"
 
-  ]
-}
 variable "env" {}
