@@ -15,6 +15,6 @@ variable "sample_number" {
 variable "sample_boolean" {
   default = true
 }
-variable "rool no" {
+variable "roolno" {
   default = 220
 }
