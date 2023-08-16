@@ -31,5 +31,5 @@ variable "city1" {
   default = ["hyd","bangloor","pune"]
 }
 variable "colours" {
-  default = "black","white","yello"
+  default = ["black","white","yello"]
 }
