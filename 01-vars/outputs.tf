@@ -9,3 +9,4 @@ output "city" {
 }
 output "sample_number" {
   value = var.sample_number
+}
