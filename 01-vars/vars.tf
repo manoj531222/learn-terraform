@@ -1,3 +1,3 @@
 variable "name" {
-  default = manoj
+  default = "manoj"
 }
