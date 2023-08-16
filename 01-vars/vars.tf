@@ -7,5 +7,5 @@ variable "fruit" {
 }
 
 variable "city" {
-  default = hyderabad
+  default = "hyderabad"
 }
