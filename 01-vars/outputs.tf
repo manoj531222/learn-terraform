@@ -23,3 +23,4 @@ output "multiple_values" {
 output "city1" {
   value = var.city1[1]
 }
+
