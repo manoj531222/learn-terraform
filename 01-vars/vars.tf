@@ -35,9 +35,9 @@ variable "colours" {
 }
 variable "capital_citys" {
   default = [
-   "hyd = dhelhi",
-   "Bihar = patna",
-   "goa = panjali"
-   ]
-
+    "hyd = dhelhi",
+    "Bihar = patna",
+    "goa = panjali"
+  ]
+}
 variable "env" {}
