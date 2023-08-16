@@ -30,6 +30,3 @@ variable "multiple_values" {
 variable "city1" {
   default = ["hyd","bangloor","pune"]
 }
-variable "colours" {
-  default = "blue","yellow"
-}
