@@ -9,6 +9,7 @@ variable "fruit" {
 variable "city" {
   default = "hyderabad"
 }
+
 variable "sample_number" {
   default = 2000
 }
@@ -26,6 +27,6 @@ variable "multiple_values" {
 
   ]
 }
-variable "city" {
+variable "city1" {
   default = ["hyd","bangloor","pune"]
 }
