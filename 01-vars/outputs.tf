@@ -20,3 +20,6 @@ output "rool_no" {
 output "multiple_values" {
   value = var.multiple_values[1]
 }
+output "city" {
+  value = var.city[0]
+}

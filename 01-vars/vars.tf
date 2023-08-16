@@ -26,3 +26,6 @@ variable "multiple_values" {
 
   ]
 }
+variable "city" {
+  default = ["hyd","bangloor","pune"]
+}
