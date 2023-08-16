@@ -46,3 +46,4 @@ variable "animals" {
 
   ]
 }
+variable "env" {}
