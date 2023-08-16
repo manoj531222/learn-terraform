@@ -26,3 +26,6 @@ output "city1" {
 output "colours" {
   value = var.colours[2]
 }
+output "capital_citys" {
+  value = var.capital_citys[1]
+}

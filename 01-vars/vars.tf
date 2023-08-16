@@ -33,3 +33,10 @@ variable "city1" {
 variable "colours" {
   default = ["black","white","yello"]
 }
+variable "capital_citys" {
+  [
+   "hyd = dhelhi"
+   "Bihar = patna"
+   "goa = panjali"
+   ]
+}
