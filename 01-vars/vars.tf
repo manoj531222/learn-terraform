@@ -20,7 +20,7 @@ variable "rool_no" {
 }
 variable "multiple_values" {
   default =[
-  hello,
+  "hello",
     123,
     ture
 
