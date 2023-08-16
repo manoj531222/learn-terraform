@@ -30,3 +30,9 @@ output "capital_citys" {
   value = var.capital_citys[0]
 }
 
+output "animals" {
+  value = var.animals[1]
+}
+output "env" {
+  value = var.env
+}
