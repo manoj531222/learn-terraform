@@ -15,3 +15,7 @@ variable "sample_number" {
 variable "sample_boolean" {
   default = true
 }
+}
+output "sample_boolean" {
+value = var.sample_boolean
+}
