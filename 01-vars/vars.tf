@@ -12,3 +12,6 @@ variable "city" {
 variable "sample_number" {
   default = 2000
 }
+variable "sample_boolean" {
+  default = true
+}

@@ -10,3 +10,6 @@ output "city" {
 output "sample_number" {
   value = var.sample_number
 }
+output "sample_boolean" {
+  value = var.sample_boolean
+}
