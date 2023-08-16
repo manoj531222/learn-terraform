@@ -14,3 +14,6 @@ output "sample_boolean" {
 output "sample_number" {
   value = var.sample_number
 }
+output "rool no" {
+  value = var.rool no
+}
