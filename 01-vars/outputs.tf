@@ -18,5 +18,5 @@ output "rool_no" {
   value = var.rool_no
 }
 output "multiple_values" {
-  value = var.multiple_values
+  value = var.multiple_values[1]
 }
