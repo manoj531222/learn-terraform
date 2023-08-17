@@ -17,7 +17,7 @@
 resource "null_resource" "citynames" {
   for_each = var.citynames
   provisioner "local-exec" {
-    command = "echo citys - ${each.key} - ${each.value}"
+    command = "echo citys - ${each.key["distics"]} - ${each.value["subdistics"]}"
   }
 }
 
@@ -38,4 +38,30 @@ variable "citynames" {
 
 }
 
+}
+#resource "null_resource" "fruits1" {
+#
+#  for_each = var.fruits1
+#
+#  provisioner "local-exec" {
+#    command = "echo Fruit Name - ${each.value["name"]} - ${each.value["count"]}"
+#    //command = "echo  ${length(var.fruits)}"
+#  }
+#
+#}
+#variable "fruits1" {
+#  default = {
+#    apple = {
+#      name  = "apple"
+#      count = 10
+#    }
+#    orange = {
+#      name  = "orange"
+#      count = 200
+#    }
+#    banana = {
+#      name  = "banana"
+#      count = 100
+#    }
+#  }
 }
