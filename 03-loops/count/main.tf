@@ -1,1 +1,3 @@
-resource "null_resource" "manoj" {}
+resource "null_resource" "manoj" {
+  count = 10
+}
