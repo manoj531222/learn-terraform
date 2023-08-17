@@ -1,4 +1,4 @@
-resource "null_resource" "fruits" {
+resource "null_resource" "marketing" {
   for_each = var.fruits
   provisioner "local-exec" {
     command = "echo fruit name - ${each.key} - ${each.value}"
