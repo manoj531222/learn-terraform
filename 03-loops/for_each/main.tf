@@ -35,6 +35,7 @@ variable "citynames" {
     pune={
       distics = "carrate"
       subdistics = 300
+
 }
 
 }
