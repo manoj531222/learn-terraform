@@ -14,14 +14,14 @@
 #
 #}
 
-resource "null_resource" "city_names" {
-  for_each = var.city_names
+resource "null_resource" "citynames" {
+  for_each = var.citynames
   provisioner "local-exec" {
     command = "echo city_names - ${each.value} - ${each.key}"
   }
 }
 
-variable "city_names" {
+variable "citynames" {
   default = {
     telangana={
       distics = 10
