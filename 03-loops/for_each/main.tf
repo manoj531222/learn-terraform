@@ -17,7 +17,7 @@
 resource "null_resource" "citynames" {
   for_each = var.citynames
   provisioner "local-exec" {
-    command = "echo city_names - ${each.value} - ${each.key}"
+    command = "echo citynames - ${each.value} - ${each.key}"
   }
 }
 
