@@ -23,15 +23,15 @@ resource "null_resource" "city_names" {
 
 variable "city_names" {
   default = {
-    telangana {
+    telangana={
       distics = 10
       subdistics = 100
   }
-    maharastra {
+    maharastra={
       distics = 20
       subdistics = 200
     }
-    pune {
+    pune={
       distics = 30
       subdistics = 300
 }
