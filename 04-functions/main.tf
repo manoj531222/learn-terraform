@@ -21,5 +21,5 @@ variable "ex2" {
   }
 }
 output "ex2" {
-  value = lookup(var.ex2, "fruit3" )
+  value = lookup(var.ex2, "fruit3", "dummy" )
 }
