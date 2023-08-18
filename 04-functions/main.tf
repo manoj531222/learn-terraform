@@ -7,7 +7,7 @@ output "ex" {
 }
 
 variable "ex1" {
-  default = ["manoj" , "prashanth"]
+  default = ["manoj","prashanth"]
 }
 
 output "ex1" {
