@@ -1,7 +1,15 @@
-variable "sample" {
-  default = "DSBFJDSFDFEFEUFUEJHHDJJDEDJVJDVJDJV"
+variable "ex" {
+  default = "manoj"
 }
 
-output "sample" {
-  value = lower(var.sample)
+output "ex" {
+  value = upper(var.ex)
+}
+
+variable "ex1" {
+  default = ["manoj" , "prashanth"]
+}
+
+output "ex1" {
+  value = element(var.ex1, 1)
 }
