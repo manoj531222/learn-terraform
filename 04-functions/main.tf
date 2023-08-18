@@ -11,5 +11,5 @@ variable "ex1" {
 }
 
 output "ex1" {
-  value = element(var.ex1, 2)
+  value = element(var.ex1, 1)
 }
