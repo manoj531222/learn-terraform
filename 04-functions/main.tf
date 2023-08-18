@@ -1,7 +1,7 @@
 variable "sample" {
-  default = "dsbfjdsfdfefeufuejhhdjjdedjvjdvjdjv"
+  default = "DSBFJDSFDFEFEUFUEJHHDJJDEDJVJDVJDJV"
 }
 
 output "sample" {
-  value = upper(var.sample)
+  value = lower(var.sample)
 }
