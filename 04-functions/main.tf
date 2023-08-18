@@ -16,8 +16,8 @@ output "ex1" {
 
 variable "ex2" {
   default = {
-    fruit1 = apple
-    fruit2 = banana
+    fruit1 = "apple"
+    fruit2 = "banana"
   }
 }
 output "ex2" {
